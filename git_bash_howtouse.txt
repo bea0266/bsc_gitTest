@@ -1,0 +1,21 @@
+git bash 사용법
+
+원하는 폴더를 우클릭해서 git bash here 선택
+
+
+3.root folder 연결 
+git init - 해당 폴더에 .git이라는 폴더 생성
+git remote add origin repository address - 해당 주소에 폴더 연결
+git status - 현재 폴더 상태 확인
+
+4. push 전엔 pull이 있다
+(pull)
+git pull origin master - 지정해 놓은 repository에서 모든 자료를 끌어온다.
+
+(push)
+git status - local 폴더와 git 과의 싱크를 체크
+git add . - 변경된 파일들을 모두 Tracking(띄어쓰기 주의)
+git commit -m "message" - 커밋을 작성할 수 있음
+git push origin +master - 실제로 git에 push하는 명령어
+
+
