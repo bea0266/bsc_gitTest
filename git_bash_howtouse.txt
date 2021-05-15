@@ -18,4 +18,13 @@ git add . - 변경된 파일들을 모두 Tracking(띄어쓰기 주의)
 git commit -m "message" - 커밋을 작성할 수 있음
 git push origin +master - 실제로 git에 push하는 명령어
 
+업로드 순서 => 
+> git init 
+> git status 
+> git add(spacebar)[파일,폴더이름] (모든파일 push할경우 .사용)
+> git commit -m "message"(커밋작성) 
+> 깃허브에서 업로드할 git repository 주소 복사(오른쪽 아이콘 이용) 
+> git remote add origin [repository 주소](오른쪽 마우스 이용해서 붙여넣기)
+> git remote -v(로컬저장소 => 원격저장소로 연결)
+> git push origin master (커밋한 파일들 원격저장소에 업로드)
 
